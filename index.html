@@ -217,14 +217,38 @@
         </div>
         <!--/Images cards-->
         <!--Labels-->
-        <div class="row"></div>
+        <div class="row">
+          <div class="form-floating mb-3 px-1">
+            <input type="text" class="form-control" id="cardHolderName" placeholder="Alberto R González">
+            <label for="cardHolderName">Card Holder Name</label>
+          </div>
+          <div class="form-floating mb-3 px-1">
+            <input type="number" class="form-control" id="cardNumber" placeholder="1111 2222 3333 4444">
+            <label for="cardNumber">Card Number</label>
+          </div>
+            <div class="form-floating mb-3 px-1">
+            <input type="number" class="form-control" id="expirationDate" placeholder="(MM/YY)">
+            <label for="expirationDate">Expiration Date (MM/YY)</label>
+            </div>
+          <div class="form-floating mb-3 px-1">
+            <input type="number" class="form-control" id="securityCode" placeholder="123">
+            <label for="securityCode">Security Code</label>
+          </div>
+        </div>
         <!--/Labels-->
       </div>
       <!--/Payment data-->
     </div>
     <!--/Payment-->
     <!--Pay button-->
-    <div id="pay button" class="container"></div>
+    <div id="pay button" class="container px-4">
+      <div class="row">
+        <button type="button" style="background-color:#08e8c7; border:0mm; border-radius: 5pt; font-weight: bold;">Pay now</button>
+      </div>
+      <div class="row">
+        <p style="text-decoration: underline; text-align: center; font-weight: 420; padding-top: 4pt;">Return</p>
+      </div>
+    </div>
     <!--/Pay button-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
