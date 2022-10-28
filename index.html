@@ -35,6 +35,7 @@
             class="img-fluid"
             src="https://weverse.co/img/weverse-shop-logo@2x.png"
             alt="WEVERSE SHOP"
+            tabindex="0"
           />
         </div>
       </div>
@@ -58,12 +59,13 @@
             class="img-fluid ms-1"
             style="width: 2vh; max-width: 24px; max-height: 24px"
             src="https://cdn-icons-png.flaticon.com/512/25/25623.png"
-            alt="Arrow down"
+            alt="Show order summary"
             type="button"
+            tabindex="0"
           />
         </div>
         <div class="col-2 text-end pe-0 pe-lg-5">
-          <b>Total $39.95</b>
+          <b tabindex="0">Total $39.95</b>
         </div>
       </div>
     </div>
@@ -84,7 +86,7 @@
             color: black;
             overflow: auto;
           "
-          tabindex="1"
+          tabindex="0"
         >
           <b>Cart</b>
         </div>
@@ -101,7 +103,7 @@
             color: black;
             overflow: auto;
           "
-          tabindex="2"
+          tabindex="0"
         >
           <b>Information</b>
         </div>
@@ -118,7 +120,7 @@
             color: black;
             overflow: auto;
           "
-          tabindex="3"
+          tabindex="0"
         >
           <b>Shipping</b>
         </div>
@@ -135,7 +137,7 @@
             color: black;
             overflow: auto;
           "
-          tabindex="4"
+          tabindex="0"
         >
           <b>Payment</b>
         </div>
@@ -150,33 +152,37 @@
           <div class="card col-12 px-4">
             <div class="row card-header bg-transparent">
               <div class="col-6 text-start">
-                <h2 style="font-size: large">Contact</h2>
+                <h2 style="font-size: large" tabindex="0">Contact</h2>
               </div>
               <div class="col-6 text-end">
-                <sub type="button"><u>Change</u></sub>
+                <sub type="button" tabindex="0"><u>Change</u></sub>
               </div>
-              <div class="col-10 text-start">albertorgdev@gmail.com</div>
+              <div class="col-10 text-start" tabindex="0">
+                albertorgdev@gmail.com
+              </div>
             </div>
             <div class="row card-body bg-transparent">
               <div class="col-6 text-start">
-                <h2 style="font-size: large">Ship to</h2>
+                <h2 style="font-size: large" tabindex="0">Ship to</h2>
               </div>
               <div class="col-6 text-end">
-                <sub type="button"><u>Change</u></sub>
+                <sub type="button" tabindex="0"><u>Change</u></sub>
               </div>
-              <div class="col-10 text-start">
+              <div class="col-10 text-start" tabindex="0">
                 Las Torres Gemelas 123, World Trade Center. 280117 Villa de
                 Alvarez. Colima, México.
               </div>
             </div>
             <div class="row card-footer bg-transparent">
               <div class="col-6 text-start">
-                <h2 style="font-size: large">Method</h2>
+                <h2 style="font-size: large" tabindex="0">Method</h2>
               </div>
               <div class="col-6 text-end">
-                <sub type="button"><u>Change</u></sub>
+                <sub type="button" tabindex="0"><u>Change</u></sub>
               </div>
-              <div class="col-10 text-start">FREE Express Shipping</div>
+              <div class="col-10 text-start" tabindex="0">
+                FREE Express Shipping
+              </div>
             </div>
           </div>
         </div>
@@ -185,8 +191,8 @@
         <div id="payment" class="container px-4 pt-4">
           <div class="row">
             <div class="col-12">
-              <h1 style="font-size: x-large">Payment</h1>
-              <p>All transactions are secure and encrypted.</p>
+              <h1 style="font-size: x-large" tabindex="0">Payment</h1>
+              <p tabindex="0">All transactions are secure and encrypted.</p>
             </div>
           </div>
           <!--Payment data-->
@@ -209,6 +215,7 @@
                     max-width: 70px;
                     max-height: 45px;
                   "
+                  tabindex="0"
                 />
               </div>
               <div class="col-2">
@@ -223,6 +230,7 @@
                     max-width: 70px;
                     max-height: 45px;
                   "
+                  tabindex="0"
                 />
               </div>
               <div class="col-2">
@@ -236,6 +244,7 @@
                     max-width: 70px;
                     max-height: 45px;
                   "
+                  tabindex="0"
                 />
               </div>
               <div class="col-2">
@@ -250,20 +259,22 @@
                     max-width: 70px;
                     max-height: 45px;
                   "
+                  tabindex="0"
                 />
               </div>
-              <div class="col-2"><sub>and more...</sub></div>
+              <div class="col-2"><sub tabindex="0">and more...</sub></div>
             </div>
             <!--/Images cards-->
             <!--Labels-->
             <div class="row align-items-center pb-2">
               <div class="col-12">
-                <div class="form-floating px-0">
+                <div class="form-floating">
                   <input
                     type="text"
                     class="form-control"
                     id="cardHolderName"
                     placeholder="Alberto R González"
+                    tabindex="0"
                   />
                   <label for="cardHolderName">Card Holder Name</label>
                 </div>
@@ -271,15 +282,15 @@
             </div>
             <div class="row align-items-center py-2">
               <div class="col-9">
-                <div class="form-floating px-0">
+                <div class="form-floating">
                   <input
                     type="number"
                     class="form-control"
                     id="cardNumber"
                     placeholder="1111 2222 3333 4444"
                     max="999999999999999"
-                  />
-                  <label for="cardNumber" style="overflow: auto"
+                    tabindex="0"
+                  /><label for="cardNumber" style="overflow: auto"
                     ><span>Card Number</span
                     ><img
                       class="img-fluid ms-1 mb-1"
@@ -300,6 +311,7 @@
                     max-width: 70px;
                     max-height: 45px;
                   "
+                  tabindex="0"
                 />
               </div>
             </div>
@@ -311,6 +323,7 @@
                     class="form-control"
                     id="expirationDate"
                     placeholder="(MM/YY)"
+                    tabindex="0"
                   />
                   <label for="expirationDate">Expiration Date (MM/YY)</label>
                 </div>
@@ -325,6 +338,7 @@
                     id="securityCode"
                     placeholder="123"
                     max="999"
+                    tabindex="0"
                   />
                   <label for="securityCode" style="overflow: auto"
                     ><span>Security Code</span
@@ -344,6 +358,7 @@
                   class="form-control"
                   id="expirationDate-2"
                   placeholder="(MM/YY)"
+                  tabindex="0"
                 />
                 <label for="expirationDate-2">Expiration Date (MM/YY)</label>
               </div>
@@ -356,6 +371,7 @@
                   id="securityCode-2"
                   placeholder="123"
                   max="999"
+                  tabindex="0"
                 />
                 <label for="securityCode-2" style="overflow: auto"
                   ><span>Security Code</span
@@ -393,7 +409,7 @@
                   src="https://cdn-icons-png.flaticon.com/512/69/69986.png"
                   alt="Shopping cart"
                 />
-                <span><b>Order summary</b></span>
+                <span tabindex="0"><b>Order summary</b></span>
               </div>
               <div class="col-3 text-center">
                 <img
@@ -404,12 +420,12 @@
                 />
               </div>
               <div class="col-6 text-center">
-                <b
+                <b tabindex="0"
                   >BTS JIN - THE ASTRONAUT 1ST SINGLE ALBUM WEVERSE GIFT VER.
                 </b>
               </div>
               <div class="col-3 text-center">
-                <b style="font-size: large">$39.95 </b>
+                <b style="font-size: large" tabindex="0">$39.95 </b>
               </div>
             </div>
             <div
@@ -417,12 +433,12 @@
               style="height: 24vh"
             >
               <div class="col-6 text-start">
-                <p style="font-size: larger">Subtotal</p>
-                <p style="font-size: larger">Shipping</p>
+                <p style="font-size: larger" tabindex="0">Subtotal</p>
+                <p style="font-size: larger" tabindex="0">Shipping</p>
               </div>
               <div class="col-6 text-end">
-                <p style="font-size: large"><b>$39.95</b></p>
-                <p style="font-size: large"><b>Free</b></p>
+                <p style="font-size: large"><b tabindex="0">$39.95</b></p>
+                <p style="font-size: large"><b tabindex="0">Free</b></p>
               </div>
             </div>
             <div
@@ -430,10 +446,10 @@
               style="height: 24vh"
             >
               <div class="col-6 text-start">
-                <p style="font-size: x-large">Total</p>
+                <p style="font-size: x-large" tabindex="0">Total</p>
               </div>
               <div class="col-6 text-end">
-                <p style="font-size: larger"><b>USD $39.95</b></p>
+                <p style="font-size: larger"><b tabindex="0">USD $39.95</b></p>
               </div>
             </div>
           </div>
@@ -456,6 +472,7 @@
             font-size: large;
             color: rgb(0, 0, 0);
           "
+          tabindex="0"
         >
           Pay now
         </div>
@@ -464,7 +481,7 @@
             class="img-fluid"
             style="width: 3vw; max-width: 10px; max-height: 10px"
             src="https://d29fhpw069ctt2.cloudfront.net/icon/image/39092/preview.png"
-            alt="Arrow left"
+            alt="Return"
             type="button"
           />
           <span
@@ -475,6 +492,7 @@
               padding-top: 4pt;
             "
             type="button"
+            tabindex="0"
           >
             Return
           </span>
@@ -501,6 +519,7 @@
             font-size: large;
           "
           type="button"
+          tabindex="0"
         >
           Return
         </span>
@@ -516,6 +535,7 @@
           font-size: large;
           color: rgb(0, 0, 0);
         "
+        tabindex="0"
       >
         Pay now
       </div>
