@@ -41,7 +41,7 @@
     </div>
     <!-- /Logo-->
     <!-- Summary -->
-    <div id="summary">
+    <div id="summary" class="d-lg-none">
       <div
         class="row justify-content-center py-3 px-5 align-items-center"
         style="background-color: #eaeaea"
@@ -143,164 +143,198 @@
     </div>
     <!--/Progress-->
     <!--Card info-->
-    <div id="card info" class="container px-3">
-      <div class="card col-12 px-4">
-        <div class="row card-header bg-transparent">
-          <div class="col-6 text-start">
-            <h2 style="font-size: large">Contact</h2>
+    <div class="col-lg-6 ps-lg-5">
+      <div id="card info" class="container px-3">
+        <div class="card col-12 px-4">
+          <div class="row card-header bg-transparent">
+            <div class="col-6 text-start">
+              <h2 style="font-size: large">Contact</h2>
+            </div>
+            <div class="col-6 text-end">
+              <sub type="button"><u>Change</u></sub>
+            </div>
+            <div class="col-10 text-start">albertorgdev@gmail.com</div>
           </div>
-          <div class="col-6 text-end">
-            <sub type="button"><u>Change</u></sub>
-          </div>
-          <div class="col-10 text-start">albertorgdev@gmail.com</div>
-        </div>
-        <div class="row card-body bg-transparent">
-          <div class="col-6 text-start">
-            <h2 style="font-size: large">Ship to</h2>
-          </div>
-          <div class="col-6 text-end">
-            <sub type="button"><u>Change</u></sub>
-          </div>
-          <div class="col-10 text-start">
-            Las Torres Gemelas 123, World Trade Center. 280117 Villa de Alvarez.
-            Colima, México.
-          </div>
-        </div>
-        <div class="row card-footer bg-transparent">
-          <div class="col-6 text-start">
-            <h2 style="font-size: large">Method</h2>
-          </div>
-          <div class="col-6 text-end">
-            <sub type="button"><u>Change</u></sub>
-          </div>
-          <div class="col-10 text-start">FREE Express Shipping</div>
-        </div>
-      </div>
-    </div>
-    <!--/Card info-->
-    <!--Payment-->
-    <div id="payment" class="container px-4 py-4">
-      <div class="row">
-        <div class="col-12">
-          <h1 style="font-size: x-large">Payment</h1>
-          <p>All transactions are secure and encrypted.</p>
-        </div>
-      </div>
-      <!--Payment data-->
-      <div
-        class="row justify-content-center rounded-2 pb-3"
-        style="background-color: #d9d9d9"
-      >
-        <!--Images cards-->
-        <div class="row justify-content-evenly align-items-center px-1 py-3">
-          <div class="col-2">
-            <img
-              class="img-fluid"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Former_Visa_%28company%29_logo.svg/3072px-Former_Visa_%28company%29_logo.svg.png"
-              alt="Visa"
-              style="
-                width: 10vw;
-                height: 7vw;
-                max-width: 70px;
-                max-height: 45px;
-              "
-            />
-          </div>
-          <div class="col-2">
-            <img
-              class="img-fluid"
-              src="https://1000logos.net/wp-content/uploads/2017/03/MasterCard-Logo-1990.png"
-              alt="Master Card"
-              style="
-                background-color: white;
-                width: 10vw;
-                height: 7vw;
-                max-width: 70px;
-                max-height: 45px;
-              "
-            />
-          </div>
-          <div class="col-2">
-            <img
-              class="img-fluid"
-              src="https://brandemia.org/sites/default/files/inline/images/american_express_logo_wordmark_detail.png"
-              alt="American Express"
-              style="
-                width: 10vw;
-                height: 7vw;
-                max-width: 70px;
-                max-height: 45px;
-              "
-            />
-          </div>
-          <div class="col-2">
-            <img
-              class="img-fluid"
-              src="https://1000logos.net/wp-content/uploads/2021/05/Discover-logo.png"
-              alt="Discover"
-              style="
-                background-color: white;
-                width: 10vw;
-                height: 7vw;
-                max-width: 70px;
-                max-height: 45px;
-              "
-            />
-          </div>
-          <div class="col-2"><sub>and more...</sub></div>
-        </div>
-        <!--/Images cards-->
-        <!--Labels-->
-        <div class="row align-items-center pb-2">
-          <div class="col-12">
-            <div class="form-floating px-0">
-              <input
-                type="text"
-                class="form-control"
-                id="cardHolderName"
-                placeholder="Alberto R González"
-              />
-              <label for="cardHolderName">Card Holder Name</label>
+          <div class="row card-body bg-transparent">
+            <div class="col-6 text-start">
+              <h2 style="font-size: large">Ship to</h2>
+            </div>
+            <div class="col-6 text-end">
+              <sub type="button"><u>Change</u></sub>
+            </div>
+            <div class="col-10 text-start">
+              Las Torres Gemelas 123, World Trade Center. 280117 Villa de
+              Alvarez. Colima, México.
             </div>
           </div>
+          <div class="row card-footer bg-transparent">
+            <div class="col-6 text-start">
+              <h2 style="font-size: large">Method</h2>
+            </div>
+            <div class="col-6 text-end">
+              <sub type="button"><u>Change</u></sub>
+            </div>
+            <div class="col-10 text-start">FREE Express Shipping</div>
+          </div>
         </div>
-        <div class="row align-items-center py-2">
-          <div class="col-9">
-            <div class="form-floating px-0">
-              <input
-                type="number"
-                class="form-control"
-                id="cardNumber"
-                placeholder="1111 2222 3333 4444"
-                max="999999999999999"
+      </div>
+      <!--/Card info-->
+      <!--Payment-->
+      <div id="payment" class="container px-4 py-4">
+        <div class="row">
+          <div class="col-12">
+            <h1 style="font-size: x-large">Payment</h1>
+            <p>All transactions are secure and encrypted.</p>
+          </div>
+        </div>
+        <!--Payment data-->
+        <div
+          class="row justify-content-center rounded-2 pb-3"
+          style="background-color: #d9d9d9"
+        >
+          <!--Images cards-->
+          <div class="row justify-content-evenly align-items-center px-1 py-3">
+            <div class="col-2">
+              <img
+                class="img-fluid"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Former_Visa_%28company%29_logo.svg/3072px-Former_Visa_%28company%29_logo.svg.png"
+                alt="Visa"
+                style="
+                  width: 10vw;
+                  height: 7vw;
+                  max-width: 70px;
+                  max-height: 45px;
+                "
               />
-              <label for="cardNumber" style="overflow: auto"
-                ><span>Card Number</span
-                ><img
-                  class="img-fluid ms-1 mb-1"
-                  style="max-width: 15px; max-height: 15px"
-                  src="https://uxwing.com/wp-content/themes/uxwing/download/editing-user-action/lock-icon.png"
-                  alt="Lock"
-              /></label>
+            </div>
+            <div class="col-2">
+              <img
+                class="img-fluid"
+                src="https://1000logos.net/wp-content/uploads/2017/03/MasterCard-Logo-1990.png"
+                alt="Master Card"
+                style="
+                  background-color: white;
+                  width: 10vw;
+                  height: 7vw;
+                  max-width: 70px;
+                  max-height: 45px;
+                "
+              />
+            </div>
+            <div class="col-2">
+              <img
+                class="img-fluid"
+                src="https://brandemia.org/sites/default/files/inline/images/american_express_logo_wordmark_detail.png"
+                alt="American Express"
+                style="
+                  width: 10vw;
+                  height: 7vw;
+                  max-width: 70px;
+                  max-height: 45px;
+                "
+              />
+            </div>
+            <div class="col-2">
+              <img
+                class="img-fluid"
+                src="https://1000logos.net/wp-content/uploads/2021/05/Discover-logo.png"
+                alt="Discover"
+                style="
+                  background-color: white;
+                  width: 10vw;
+                  height: 7vw;
+                  max-width: 70px;
+                  max-height: 45px;
+                "
+              />
+            </div>
+            <div class="col-2"><sub>and more...</sub></div>
+          </div>
+          <!--/Images cards-->
+          <!--Labels-->
+          <div class="row align-items-center pb-2">
+            <div class="col-12">
+              <div class="form-floating px-0">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="cardHolderName"
+                  placeholder="Alberto R González"
+                />
+                <label for="cardHolderName">Card Holder Name</label>
+              </div>
             </div>
           </div>
-          <div class="col-3 text-center">
-            <img
-              class="img-fluid"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Former_Visa_%28company%29_logo.svg/3072px-Former_Visa_%28company%29_logo.svg.png"
-              alt="Visa"
-              style="
-                width: 13vw;
-                height: 9vw;
-                max-width: 70px;
-                max-height: 45px;
-              "
-            />
+          <div class="row align-items-center py-2">
+            <div class="col-9">
+              <div class="form-floating px-0">
+                <input
+                  type="number"
+                  class="form-control"
+                  id="cardNumber"
+                  placeholder="1111 2222 3333 4444"
+                  max="999999999999999"
+                />
+                <label for="cardNumber" style="overflow: auto"
+                  ><span>Card Number</span
+                  ><img
+                    class="img-fluid ms-1 mb-1"
+                    style="max-width: 15px; max-height: 15px"
+                    src="https://uxwing.com/wp-content/themes/uxwing/download/editing-user-action/lock-icon.png"
+                    alt="Lock"
+                /></label>
+              </div>
+            </div>
+            <div class="col-3 text-center">
+              <img
+                class="img-fluid"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Former_Visa_%28company%29_logo.svg/3072px-Former_Visa_%28company%29_logo.svg.png"
+                alt="Visa"
+                style="
+                  width: 13vw;
+                  height: 9vw;
+                  max-width: 70px;
+                  max-height: 45px;
+                "
+              />
+            </div>
           </div>
-        </div>
-        <div class="row align-items-center py-2 d-block d-sm-block d-md-none">
-          <div class="col-12">
-            <div class="form-floating px-0">
+          <div class="row align-items-center py-2 d-block d-md-none">
+            <div class="col-12">
+              <div class="form-floating px-0">
+                <input
+                  type="month"
+                  class="form-control"
+                  id="expirationDate"
+                  placeholder="(MM/YY)"
+                />
+                <label for="expirationDate">Expiration Date (MM/YY)</label>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-center py-2 d-block d-md-none">
+            <div class="col-12">
+              <div class="form-floating px-0">
+                <input
+                  type="number"
+                  class="form-control"
+                  id="securityCode"
+                  placeholder="123"
+                  max="999"
+                />
+                <label for="securityCode" style="overflow: auto"
+                  ><span>Security Code</span
+                  ><img
+                    class="img-fluid ms-1 mb-1"
+                    style="max-width: 15px; max-height: 15px"
+                    src="https://www.pngkey.com/png/full/285-2857970_question-mark-question-mark-icon-transparent.png"
+                    alt="Question"
+                /></label>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 ps-4 py-2 d-none d-md-block">
+            <div class="form-floating">
               <input
                 type="month"
                 class="form-control"
@@ -310,10 +344,8 @@
               <label for="expirationDate">Expiration Date (MM/YY)</label>
             </div>
           </div>
-        </div>
-        <div class="row align-items-center py-2 d-block d-sm-block d-md-none">
-          <div class="col-12">
-            <div class="form-floating px-0">
+          <div class="col-md-6 pe-4 py-2 d-none d-md-block">
+            <div class="form-floating">
               <input
                 type="number"
                 class="form-control"
@@ -331,40 +363,10 @@
               /></label>
             </div>
           </div>
+          <!--/Labels-->
         </div>
-        <div class="col-md-6 ps-4 py-2 d-none d-sm-none d-md-block">
-          <div class="form-floating">
-            <input
-              type="month"
-              class="form-control"
-              id="expirationDate"
-              placeholder="(MM/YY)"
-            />
-            <label for="expirationDate">Expiration Date (MM/YY)</label>
-          </div>
-        </div>
-        <div class="col-md-6 pe-4 py-2 d-none d-sm-none d-md-block">
-          <div class="form-floating">
-            <input
-              type="number"
-              class="form-control"
-              id="securityCode"
-              placeholder="123"
-              max="999"
-            />
-            <label for="securityCode" style="overflow: auto"
-              ><span>Security Code</span
-              ><img
-                class="img-fluid ms-1 mb-1"
-                style="max-width: 15px; max-height: 15px"
-                src="https://www.pngkey.com/png/full/285-2857970_question-mark-question-mark-icon-transparent.png"
-                alt="Question"
-            /></label>
-          </div>
-        </div>
-        <!--/Labels-->
+        <!--/Payment data-->
       </div>
-      <!--/Payment data-->
     </div>
     <!--/Payment-->
     <!--Pay button-->
