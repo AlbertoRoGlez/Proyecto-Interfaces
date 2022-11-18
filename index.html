@@ -28,15 +28,22 @@
   </head>
   <body style="overflow-x: hidden">
     <div id="navbar" class="container text-center">
-      <div class="row justify-content-center py-4 align-items-center">
+      <div class="row justify-content-center pt-4 align-items-center">
         <div class="col-2">
-          <img
-            class="img-fluid"
-            style="width: 5vh; max-width: 24px; max-height: 24px"
-            src="https://cdn-icons-png.flaticon.com/512/3917/3917215.png"
-            alt="Menú"
-            tabindex="0"
-          />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            class="bi bi-person-circle"
+            viewBox="0 0 16 16"
+          >
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+            <path
+              fill-rule="evenodd"
+              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+            />
+          </svg>
         </div>
         <div class="col-8">
           <img
@@ -53,6 +60,37 @@
             src="https://cdn-icons-png.flaticon.com/512/69/69986.png"
             alt="Shopping cart"
           />
+        </div>
+        <form class="d-flex pt-3" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-dark" type="submit">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              class="bi bi-search img-fluid"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+              />
+            </svg>
+          </button>
+        </form>
+        <div class="col-4 py-1">
+          <button class="btn default">Log In</button>
+        </div>
+        <div class="col-4 py-1">
+          <button class="btn default">Products</button>
+        </div>
+        <div class="col-4 py-1">
+          <button class="btn default">Payment</button>
         </div>
       </div>
     </div>
@@ -121,9 +159,9 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <div id="cards" class="py-4 px-4">
+    <div id="cards" class="px-4">
       <div class="row text-center justify-content-center">
-        <div class="col-6">
+        <div class="col-6 py-4">
           <div class="card" style="">
             <img
               class="img-fluid"
@@ -133,14 +171,12 @@
               alt="The astronaut"
             />
             <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <p class="card-text fw-bold">BTS - THE ASTROUNAUT ALBUM</p>
+              <p class="card-text">$25.00</p>
             </div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-6 py-4">
           <div class="card" style="">
             <img
               class="img-fluid"
@@ -150,10 +186,38 @@
               alt="The astronaut"
             />
             <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <p class="card-text fw-bold">BTS - THE ASTROUNAUT ALBUM</p>
+              <p class="card-text">$25.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 py-4">
+          <div class="card" style="">
+            <img
+              class="img-fluid"
+              style=""
+              src="https://www.nacionrex.com/__export/1666195964944/sites/debate/img/2022/10/19/jin-nuevo-album-comprar.jfif_2120446623.jfif"
+              class="card-img-top"
+              alt="The astronaut"
+            />
+            <div class="card-body">
+              <p class="card-text fw-bold">BTS - THE ASTROUNAUT ALBUM</p>
+              <p class="card-text">$25.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 py-4">
+          <div class="card" style="">
+            <img
+              class="img-fluid"
+              style=""
+              src="https://www.nacionrex.com/__export/1666195964944/sites/debate/img/2022/10/19/jin-nuevo-album-comprar.jfif_2120446623.jfif"
+              class="card-img-top"
+              alt="The astronaut"
+            />
+            <div class="card-body">
+              <p class="card-text fw-bold">BTS - THE ASTROUNAUT ALBUM</p>
+              <p class="card-text">$25.00</p>
             </div>
           </div>
         </div>
